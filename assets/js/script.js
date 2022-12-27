@@ -24,7 +24,6 @@
 	//Submenu Dropdown Toggle
 	if($('.main-header li.dropdown ul').length){
 		$('.main-header .navigation li.dropdown').append('<div class="dropdown-btn"><span class="fas fa-angle-down"></span></div>');
-		
 	}
 
 	//Mobile Nav Hide Show
@@ -162,7 +161,6 @@
 		});
 	}
 
-
 	//Pricing Tabs
 	if($('.pricing-tabs').length){
 		$('.pricing-tabs .tab-btns .tab-btn').on('click', function(e) {
@@ -171,7 +169,9 @@
 			
 			if ($(target).hasClass('actve-tab')){
 				return false;
-			}else{
+			}
+			else
+			{
 				$('.pricing-tabs .tab-btns .tab-btn').removeClass('active-btn');
 				$(this).addClass('active-btn');
 				$('.pricing-tabs .pr-content .pr-tab').removeClass('active-tab');
