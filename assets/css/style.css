@@ -2004,7 +2004,7 @@ div#mCSB_1_container {
   position: relative;
   font-size: 18px;
   line-height: 24px;
-  color: #ad9a90;
+  color: white;
   margin-bottom: 6px;
 }
 
@@ -2202,7 +2202,7 @@ div#mCSB_1_container {
   position: relative;
   display: block;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   color: #3b251a;
   background: #fff;
   padding: 16px 20px 13px 57px;
