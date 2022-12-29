@@ -207,7 +207,7 @@ img {
 .theme-btn:before{
   position: absolute;
   content: '';
-  background: #c64100;
+  background: #0fb137;
   width: 100%;
   height: 3px;
   left: 0px;
@@ -278,6 +278,7 @@ img {
 
 .scroll-top.open {
   bottom: 30px;
+  border: 0;
 }
 
 .scroll-top span{
@@ -403,7 +404,7 @@ img {
 }
 
 .preloader .boxes .box > div{
-  --background: #ff6f29;
+  --background: #009124;
   --top: auto;
   --right: auto;
   --bottom: auto;
@@ -429,18 +430,18 @@ img {
 }
 
 .preloader .boxes .box > div:nth-child(2){
-  --background: #c64100;
+  --background: #009124;
   --right: 0;
   --rotateY: 90deg;
 }
 
 .preloader .boxes .box > div:nth-child(3){
-  --background: #c64100;
+  --background: #009124;
   --rotateX: -90deg;
 }
 
 .preloader .boxes .box > div:nth-child(4){
-  --background: #c64100;
+  --background: #009124;
   --top: 0;
   --left: 0;
   --translateZ: calc(var(--size) * 3 * -1);
@@ -1477,7 +1478,7 @@ div#mCSB_1_container{
 .banner-section .pattern-layer{
   position: absolute;
   left: 0px;
-  bottom: 0px;
+  bottom: -2px;
   width: 100%;
   height: 172px;
   background-size: cover;
@@ -1994,7 +1995,7 @@ div#mCSB_1_container{
 
 .activities-section .lower-box{
   position: relative;
-  background: #3b251a;
+  background: #026e1d;
   padding: 52px 60px 53px 60px;
   display: flex;
   flex-wrap: wrap;
@@ -2058,7 +2059,7 @@ div#mCSB_1_container{
 .video-section:before{
   position: absolute;
   content: '';
-  background: #3b251a;
+  background: #026e1d;
   width: 100%;
   height: 100%;
   left: 0px;
@@ -2318,7 +2319,7 @@ div#mCSB_1_container{
 }
 
 .bg-color-2{
-  background: #3b251a;
+  background: #026e1d;
 }
 
 
