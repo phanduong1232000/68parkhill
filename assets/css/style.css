@@ -4506,6 +4506,7 @@ div#mCSB_1_container{
   color: #fff;
   background: transparent;
   padding: 0px 65px 0px 40px;
+  border: 1px solid white;
 }
 
 .blog-sidebar .search-widget .form-group button{
@@ -4515,6 +4516,7 @@ div#mCSB_1_container{
   font-size: 15px;
   color: #fff;
   background: transparent;
+  border: 0;
 }
 
 .blog-sidebar .search-widget{
